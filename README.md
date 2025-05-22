@@ -1,14 +1,24 @@
-# windows-bootkit ( PoC )
-PoC bootkit which intercepts windows boot sequence to set up payload in kernel before os starts.
+# windows-bootkit (PoC)
 
-# idea
-the idea is to get kernel exection from usermode, i have used a shellcode to call a function with only 1 parameter, and not a usermode program to do so.
+A proof-of-concept bootkit that intercepts the windowss boot process to execute a payload in kernel mode
 
-# contact
-questions? dm me on [telegram](https://t.me/readcr0)
+---
 
+## idea
 
+the idea is to obtain kernel-mode execution for either r/w or other purposes
+- by extending the shellcode and writing a usermode program you can achieve simple interface to r/w anti-cheat protected process memory
 
+---
 
+## usage
 
+├── efi/
+│   └── boot/
+│       └── bootx64.efi ← our bootkit
 
+---
+
+## contact
+
+questions? reach out via [my telegram](https://t.me/readcr0).
