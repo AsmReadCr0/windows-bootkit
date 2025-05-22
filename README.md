@@ -11,14 +11,6 @@ the idea is to obtain kernel-mode execution for either r/w or other purposes
 
 ---
 
-## usage
-
-├── efi/
-│   └── boot/
-│       └── bootx64.efi ← our bootkit
-
----
-
 ## contact
 
 questions? reach out via [my telegram](https://t.me/readcr0).
