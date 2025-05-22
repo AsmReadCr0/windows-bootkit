@@ -23,3 +23,4 @@ visual studio & msvc compiler
 ## contact
 
 questions? reach out via [my telegram](https://t.me/readcr0).
+im also selling fully private and finished version of this bootkit on my telegram.
