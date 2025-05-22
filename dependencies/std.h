@@ -103,17 +103,3 @@ typedef std::uint64_t* PHANDLE;
 typedef std::uint32_t ACCESS_MASK;
 typedef void* PVOID;
 typedef std::uint32_t ULONG;
-
-typedef std::uint64_t(EFIAPI* NT_CREATE_FILE)(
-    PHANDLE,             // FileHandle
-    ACCESS_MASK,         // DesiredAccess
-    PVOID,              // ObjectAttributes
-    PVOID,              // IoStatusBlock
-    PVOID,              // AllocationSize
-    ULONG,              // FileAttributes
-    ULONG,              // ShareAccess
-    ULONG,              // CreateDisposition
-    ULONG,              // CreateOptions
-    PVOID,              // EaBuffer
-    ULONG               // EaLength
-    );
