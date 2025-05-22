@@ -11,6 +11,15 @@ the idea is to obtain kernel-mode execution for either r/w or other purposes
 
 ---
 
+## compilation
+
+expects EDKII folder within its .\ directory
+to compile:
+visual studio & msvc compiler
+
+---
+
+
 ## contact
 
 questions? reach out via [my telegram](https://t.me/readcr0).
