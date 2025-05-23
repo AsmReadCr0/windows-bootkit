@@ -1,6 +1,6 @@
-# windows-bootkit (PoC)
+# windows-bootkit
 
-A proof-of-concept bootkit that intercepts the windowss boot process to execute a payload in kernel mode
+A proof-of-concept bootkit that intercepts the windows boot process to execute a payload in kernel mode
 
 ---
 
