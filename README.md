@@ -1,6 +1,7 @@
 # windows-bootkit
 
 A proof-of-concept bootkit that intercepts the windows boot process to execute a payload in kernel mode
+- star the project for more releases!
 
 ---
 
